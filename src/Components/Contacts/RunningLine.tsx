@@ -1,19 +1,12 @@
-import React from 'react';
 import './animation.css';
 
 function RunningLine() {
 	return (
 		<div className='animation-container pb-2'>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
-			<p>Lorem ipsum dolor sit amet. &nbsp;</p>
+			<p>Have a project or job opportunity in mind? Don't hesitate to reach out and let's have a conversation today! &nbsp;</p>
+			<p>Have a project or job opportunity in mind? Don't hesitate to reach out and let's have a conversation today! &nbsp;</p>
+			<p>Have a project or job opportunity in mind? Don't hesitate to reach out and let's have a conversation today! &nbsp;</p>
+			<p>Have a project or job opportunity in mind? Don't hesitate to reach out and let's have a conversation today! &nbsp;</p>
 		</div>
 	);
 }

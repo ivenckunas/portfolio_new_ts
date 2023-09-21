@@ -1,4 +1,3 @@
-import React from 'react';
 import {TbMedicalCross} from 'react-icons/tb';
 import {AiOutlineMail} from 'react-icons/ai';
 import {PiLinkedinLogo, PiGithubLogo} from 'react-icons/pi';
@@ -6,21 +5,41 @@ import {PiLinkedinLogo, PiGithubLogo} from 'react-icons/pi';
 function Contacts() {
 	return (
 		<div>
-			<ul className='p-2 border-y-[1px] border-black flex justify-between items-center font-[400] text-l tracking-wide uppercase [&>li]:flex [&>li]:gap-2 [&>li]:items-center [&>li]:cursor-pointer'>
+			<ul className='grid grid-cols-2 p-2 border-y-[1px] border-black md:flex justify-between items-center font-[400] text-l tracking-wide uppercase [&>li]:flex [&>li]:gap-2 [&>li]:items-center [&>li]:cursor-pointer'>
 				<li className='hover:text-[#FF0000] '>
 					<PiGithubLogo />
-					Github
+					<a
+						href='https://github.com/ivenckunas'
+						target='_blank'
+					>
+						Github
+					</a>
 				</li>
 				<li className='hover:text-[#FF0000]'>
 					<PiLinkedinLogo />
-					Linkedin
+					<a
+						href='https://www.linkedin.com/in/ignas-venckunas/'
+						target='_blank'
+					>
+						Linkedin
+					</a>
 				</li>
 				<li className='hover:text-[#FF0000]'>
 					<AiOutlineMail />
-					Email
+					<a
+						href='https://mail.google.com/mail/?view=cm&fs=1&to=ignas.venckunas@gmail.com'
+						target='_blank'
+					>
+						Email
+					</a>
 				</li>
 				<li className='hover:text-[#FF0000]'>
-					<TbMedicalCross />
+					<a
+						href='https://www.youtube.com/watch?v=8DyziWtkfBw'
+						target='_blank'
+					>
+						<TbMedicalCross />
+					</a>
 				</li>
 			</ul>
 		</div>

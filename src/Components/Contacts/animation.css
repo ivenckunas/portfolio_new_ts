@@ -7,7 +7,7 @@
 }
 
 .animation-container p {
-  animation: loopText 15s infinite linear
+  animation: loopText 14s infinite linear
 }
 
 @keyframes loopText {
