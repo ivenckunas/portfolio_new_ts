@@ -4,7 +4,15 @@ import SingleProject from './SingleProject';
 import {projectsArr} from './data';
 
 function Projects() {
-	const [currentProject, setCurrentProject] = useState(projectsArr[0]);
+	type project = {
+		id: number;
+		name: string;
+		desc: string;
+		stack: string;
+		link: string;
+		photo: string;
+	};
+	const [currentProject, setCurrentProject] = useState<project>(projectsArr[0]);
 
 	const handleMouseEnter = (id: number) => {
 		const projectInArr = projectsArr[id];
