@@ -1,4 +1,6 @@
-function SingleProject({currentProject}) {
+import type {Project} from './Projects';
+
+function SingleProject({currentProject}: {currentProject: Project}) {
 	return (
 		<div className='md:flex gap-5 py-3 md:py-5'>
 			<img
