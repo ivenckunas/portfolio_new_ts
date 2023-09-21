@@ -1,0 +1,21 @@
+.animation-container {
+  display: flex;
+  white-space: nowrap;
+  overflow: hidden;
+
+
+}
+
+.animation-container p {
+  animation: loopText 15s infinite linear
+}
+
+@keyframes loopText {
+  from {
+    transform: translateX(0%);
+  }
+
+  to {
+    transform: translateX(-100%);
+  }
+}
