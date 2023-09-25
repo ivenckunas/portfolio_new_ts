@@ -1,8 +1,8 @@
-import photo1 from '../../assets/pazinkdarza.png';
-import photo2 from '../../assets/zoomarket.png';
-import photo3 from '../../assets/projectmini.png';
-import photo4 from '../../assets/rm.png';
-import photo5 from '../../assets/webprojects.png';
+import photo1 from '../../assets/pazinkdarza.webp';
+import photo2 from '../../assets/zoomarket.webp';
+import photo3 from '../../assets/projectmini.webp';
+import photo4 from '../../assets/rm.webp';
+import photo5 from '../../assets/webprojects.webp';
 
 export const projectsArr: {id: number; name: string; desc: string; stack: string; link: string; photo: string}[] = [
 	{
