@@ -5,7 +5,7 @@ import {PiLinkedinLogo, PiGithubLogo} from 'react-icons/pi';
 function Contacts() {
 	return (
 		<div>
-			<ul className='grid grid-cols-2 p-2 border-y-[1px] border-black md:flex justify-between items-center font-[400] text-l tracking-wide uppercase [&>li]:flex [&>li]:gap-2 [&>li]:items-center [&>li]:cursor-pointer'>
+			<ul className='grid grid-cols-2 p-2 border-y-[1px] border-black lg:flex justify-between items-center font-[400] text-l tracking-wide uppercase [&>li]:flex [&>li]:gap-2 [&>li]:items-center [&>li]:cursor-pointer'>
 				<li className='hover:text-[#FF0000] '>
 					<PiGithubLogo />
 					<a

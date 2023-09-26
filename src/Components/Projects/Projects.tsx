@@ -23,9 +23,9 @@ function Projects() {
 	return (
 		<div>
 			<h2>projects</h2>
-			<ul className='md:grid md:grid-cols-5 border-b-[1px] border-black [&>li]:flex'>
+			<ul className='lg:grid lg:grid-cols-5 border-b-[1px] border-black [&>li]:flex'>
 				{projectsArr.map((project, id) => (
-					<li className={id === 4 ? 'border-t-[1px] border-black ' : 'border-t-[1px] md:mr-5 border-black'}>
+					<li className={id === 4 ? 'border-t-[1px] border-black ' : 'border-t-[1px] lg:mr-5 border-black'}>
 						<span
 							onMouseEnter={() => handleMouseEnter(project.id)}
 							className='hover:text-[#FF0000] cursor-pointer inline-flex items-center py-3'
