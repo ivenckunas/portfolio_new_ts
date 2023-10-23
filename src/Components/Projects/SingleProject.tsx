@@ -6,7 +6,7 @@ function SingleProject({currentProject}: {currentProject: Project}) {
 			<img
 				className='mb-3 min-h-[40dvh] object-cover border border-black lg:mb-0 lg:w-[40dvw] lg:h-[70dvh]'
 				src={currentProject.photo}
-				alt=''
+				alt='current opened project photo'
 			/>
 
 			<div className='flex flex-grow flex-col justify-end'>
