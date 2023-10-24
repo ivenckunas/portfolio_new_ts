@@ -1,4 +1,4 @@
-import {TbMedicalCross} from 'react-icons/tb';
+import {BsSend} from 'react-icons/bs';
 import {AiOutlineMail} from 'react-icons/ai';
 import {PiLinkedinLogo, PiGithubLogo} from 'react-icons/pi';
 
@@ -33,13 +33,9 @@ function Contacts() {
 						Email
 					</a>
 				</li>
-				<li className='hover:text-[#FF0000]'>
-					<a
-						href='https://www.youtube.com/watch?v=8DyziWtkfBw'
-						target='_blank'
-					>
-						<TbMedicalCross />
-					</a>
+				<li className=' hover:text-[#FF0000]'>
+					<BsSend />
+					<a>Message</a>
 				</li>
 			</ul>
 		</div>
