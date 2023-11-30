@@ -20,6 +20,11 @@ function Projects() {
 		setCurrentProject(projectInArr);
 	};
 
+	const handleMouseClick = (id: number) => {
+		const projectLinkInArr = projectsArr[id].link;
+		window.open(projectLinkInArr, '_blank');
+	};
+
 	return (
 		<div>
 			<h2>projects</h2>
@@ -30,6 +35,7 @@ function Projects() {
 						className={id === 4 ? 'border-t-[1px] border-black ' : 'border-t-[1px] lg:mr-5 border-black'}
 					>
 						<span
+							onClick={() => handleMouseClick(project.id)}
 							onMouseEnter={() => handleMouseEnter(project.id)}
 							className='hover:text-[#FF0000] cursor-pointer inline-flex items-center py-3'
 						>
