@@ -1,0 +1,48 @@
+.name-input,
+.email-input {
+  width: 100%;
+  margin-bottom: 1rem;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s;
+}
+
+.name-input::placeholder,
+.email-input::placeholder {
+  padding-left: 0.4rem;
+}
+
+.name-input:focus,
+.email-input:focus {
+  background-color: rgba(255, 255, 255, 0.9)
+}
+
+.msg-textarea {
+  width: 100%;
+  resize: none;
+  background-color: rgba(255, 255, 255, 0.5);
+  transition: 0.2s;
+  margin-bottom: 1rem;
+}
+
+.msg-textarea::placeholder {
+  padding-left: 0.4rem;
+}
+
+.msg-textarea:focus {
+  background-color: rgba(255, 255, 255, 0.9)
+}
+
+.submit-btn {
+  text-transform: lowercase;
+  border: 1px solid black;
+  padding: 0.3rem 0.5rem;
+  border-radius: 8px;
+  margin-bottom: 2rem;
+  transition: 0.2s;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  color: #FF0000;
+  border-color: #FF0000;
+}
