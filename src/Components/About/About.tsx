@@ -1,3 +1,4 @@
+import Form from '../Form/Form';
 import graph1 from '../../assets/9312526-ai.svg';
 
 function About() {
@@ -11,7 +12,7 @@ function About() {
 				src={graph1}
 				alt='abstract monochromic color graphic'
 			/>
-			{/* <Form /> */}
+			<Form />
 		</div>
 	);
 }
