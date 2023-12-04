@@ -1,5 +1,5 @@
-import Form from '../Form/Form';
 import graph1 from '../../assets/9312526-ai.svg';
+import Spotify from '../Spotify/Spotify';
 
 function About() {
 	return (
@@ -13,10 +13,7 @@ function About() {
 				src={graph1}
 				alt='abstract monochromic color graphic'
 			/>
-
-			<Form />
-
-
+			<Spotify />
 		</div>
 	);
 }
