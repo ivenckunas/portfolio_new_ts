@@ -10,13 +10,15 @@ export default function App() {
 		formState: {errors},
 	} = useForm();
 
-	const sendEmail = (formData) => {
+	const sendEmail = (formData: Record<string, unknown> | undefined) => {
+		console.log('formData ===', formData);
 		emailjs.send('service_lnx78oi', 'template_zti9zb3', formData, 'A-AhpOA7SuLIL14tc').then(
 			(result) => {
 				console.log(result.text);
 			},
 			(error) => {
 				console.log(error.text);
+				console.log(errors);
 			}
 		);
 		reset();
