@@ -1,8 +1,18 @@
+import {useEffect, useState} from 'react';
 import graph1 from '../../assets/9312526-ai.svg';
 import Form from '../Form/Form';
 import Spotify from '../Spotify/Spotify';
 
 function About() {
+	const [renderComponent, setRenderComponent] = useState(false);
+
+	useEffect(() => {
+		const timeout = setTimeout(() => {
+			setRenderComponent(true);
+		}, 500);
+
+		return () => clearTimeout(timeout);
+	}, []);
 	return (
 		<div className='flex flex-col h-auto lg:pr-5 '>
 			<h2>hi, i'm</h2>
@@ -15,7 +25,7 @@ function About() {
 				alt='abstract monochromic color graphic'
 			/>
 			<Form />
-			<Spotify />
+			{renderComponent && <Spotify />}
 		</div>
 	);
 }

@@ -2,7 +2,7 @@ import './form.css';
 import {useForm} from 'react-hook-form';
 import emailjs from '@emailjs/browser';
 
-export default function App() {
+export default function Form() {
 	const {
 		register,
 		handleSubmit,

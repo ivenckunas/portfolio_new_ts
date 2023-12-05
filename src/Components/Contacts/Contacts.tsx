@@ -1,6 +1,6 @@
-import {BsSend} from 'react-icons/bs';
 import {AiOutlineMail} from 'react-icons/ai';
 import {PiLinkedinLogo, PiGithubLogo} from 'react-icons/pi';
+import {FiCoffee} from 'react-icons/fi';
 
 function Contacts() {
 	return (
@@ -34,8 +34,13 @@ function Contacts() {
 					</a>
 				</li>
 				<li className=' hover:text-[#FF0000]'>
-					<BsSend />
-					<a>Message</a>
+					<FiCoffee />
+					<a
+						href='https://www.buymeacoffee.com/ignasven'
+						target='_blank'
+					>
+						Coffee?
+					</a>
 				</li>
 			</ul>
 		</div>
