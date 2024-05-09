@@ -4,7 +4,7 @@ function SingleProject({currentProject}: {currentProject: Project}) {
 	return (
 		<div className='lg:flex gap-5 py-3 lg:py-5'>
 			<img
-				className='mb-3 min-h-[40dvh] object-cover border border-black lg:mb-0 lg:w-[40dvw] lg:h-[70dvh]'
+				className='mb-3 min-h-[40dvh] object-cover border border-black lg:mb-0 lg:w-[40dvw] lg:h-[60dvh]'
 				src={currentProject.photo}
 				alt='current opened project photo'
 			/>

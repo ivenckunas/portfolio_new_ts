@@ -28,11 +28,11 @@ function Projects() {
 	return (
 		<div>
 			<h2>projects</h2>
-			<ul className='lg:grid lg:grid-cols-5 border-b-[1px] border-black [&>li]:flex'>
+			<ul className='grid grid-cols-2 lg:grid lg:grid-cols-3 border-b-[1px] border-black [&>li]:flex'>
 				{projectsArr.map((project, id) => (
 					<li
 						key={id}
-						className={id === 4 ? 'border-t-[1px] border-black ' : 'border-t-[1px] lg:mr-5 border-black'}
+						className={id === 5 || id === 2 ? 'border-t-[1px] border-black ' : 'border-t-[1px] lg:mr-5 border-black'}
 					>
 						<span
 							// onClick={() => handleMouseClick(project.id)}
